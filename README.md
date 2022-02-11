@@ -18,6 +18,8 @@ Filler text. Will fill out with introduction from report. Filler text. Will fill
 
 ### Key Figures
 
+WILL ADD IMAGES FROM EDA HERE AS WELL AS OTHER KEY IMAGES
+
 ### Analysis
 
 Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report. Filler text. Will fill out with introduction from report.
