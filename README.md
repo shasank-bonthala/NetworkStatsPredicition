@@ -23,8 +23,8 @@ As a cusutomer, this type of analysis is so important when choosing the right in
 This section displays the values for many of the features used, as well as how these values change across different packet loss ratioes and latencies. 
 
 The graphs below show the average packet size sent in bytes in each interaction over different packet loss ratioes and latencies, respectively.  
-![image](https://user-images.githubusercontent.com/43732347/156982300-0410b994-c191-4095-ad4d-a0d22d5a69e3.png)
-![image](https://user-images.githubusercontent.com/43732347/156982337-34e6227d-1d7c-4269-afa4-2c47d94aef78.png)  
+![image](https://user-images.githubusercontent.com/43732347/156982499-e7b05a5f-d0fd-4f27-bfd7-98c842b5ec38.png)
+![image](https://user-images.githubusercontent.com/43732347/156982524-4d66fbd9-ca16-4225-b6bd-6096da2bceee.png)  
 
 
 The graphs below are formatted the same way, but they show the total number of packets sent in each interaction.  
