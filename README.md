@@ -23,15 +23,29 @@ As a cusutomer, this type of analysis is so important when choosing the right in
 This section displays the values for many of the features used, as well as how these values change across different packet loss ratioes and latencies. 
 
 The graphs below show the average packet size sent in bytes in each interaction over different packet loss ratioes and latencies, respectively.  
-![image](https://user-images.githubusercontent.com/43732347/156982499-e7b05a5f-d0fd-4f27-bfd7-98c842b5ec38.png)
+![image](https://user-images.githubusercontent.com/43732347/156982499-e7b05a5f-d0fd-4f27-bfd7-98c842b5ec38.png) 
 ![image](https://user-images.githubusercontent.com/43732347/156982524-4d66fbd9-ca16-4225-b6bd-6096da2bceee.png)  
 
-
 The graphs below are formatted the same way, but they show the total number of packets sent in each interaction.  
-![image](https://user-images.githubusercontent.com/43732347/156980545-b7e747a6-5297-4fcb-b1ac-94c5750c15b3.png)
-![image](https://user-images.githubusercontent.com/43732347/156980558-5ebb9bdd-ba2d-47bb-99db-ae3e17bc78e4.png)  
+![image](https://user-images.githubusercontent.com/43732347/156983311-995f88bb-422c-463d-9936-9dbfe2567fac.png) 
+![image](https://user-images.githubusercontent.com/43732347/156983329-a8af73ad-94da-43a6-ad61-cf540c1ea92d.png)  
 
-Next we look at another one
+The following graphs look very similar to the previous ones. This is because they show total bytes sent, which is closely related to total packets sent.  
+![image](https://user-images.githubusercontent.com/43732347/156983444-1530c624-174c-4c7e-8c17-680496aae748.png) 
+![image](https://user-images.githubusercontent.com/43732347/156983462-b77ff683-a4df-4b31-b60d-1fb868f65d39.png)  
+
+The next set of graphs display the length of each interaction in milliseconds.  
+![image](https://user-images.githubusercontent.com/43732347/156983546-9c346158-b17c-4a80-8cff-7fb2b795cb9f.png) 
+![image](https://user-images.githubusercontent.com/43732347/156983562-a6f11b03-aa91-435e-9c02-fd41a354eee4.png)  
+
+The following sets of graphs are based on the previous ones. These show the number of packets sent divided by the interaction length. This provides an idea of the rate at which packets are being sent.  
+![image](https://user-images.githubusercontent.com/43732347/156983745-7ca462e5-d684-47b8-bdba-b61567f2bc5f.png) 
+![image](https://user-images.githubusercontent.com/43732347/156983761-4a2ace78-0c18-4750-967c-b6d95cac9b41.png)  
+
+The final two graphs are similar to the previous two, but they show the rate of bytes being sent instead of packets.  
+![image](https://user-images.githubusercontent.com/43732347/156983835-b705362e-2f02-4950-8a3c-a2cb7de61e9e.png) 
+![image](https://user-images.githubusercontent.com/43732347/156983848-2924ba38-f557-43e3-b7d8-1b17236823b3.png)  
+
 
 ### Analysis
 
