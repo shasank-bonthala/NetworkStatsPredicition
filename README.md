@@ -28,4 +28,4 @@ As a cusutomer, this type of analysis is so important when choosing the right in
 
 ### Future Impact
 
-**TODO**
+In terms of future impact, we believe this sort of analysis will be instrumental in the future of the industry. Using models to predict network conditions based on real-world data will have huge positives and the beauty of this process is that as more and more data gets fed into the model, the more accurate it becomes. It is an ever evolving study that will only get better with time and we feel like it can have a huge impact on the satisfaction of customers if coupled with some sort of monitoring API.
