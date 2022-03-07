@@ -20,8 +20,17 @@ As a cusutomer, this type of analysis is so important when choosing the right in
 
 ### Key Figures
 
-**TODO: WILL ADD IMAGES FROM EDA HERE AS WELL AS OTHER KEY IMAGES**
-![image](https://user-images.githubusercontent.com/43732347/156963627-e026c43f-95cb-42e4-a48f-97a3877fa3ea.png)
+This section displays the values for many of the features used, as well as how these values change across different packet loss ratioes and latencies. 
+
+The graphs below show the average packet size sent in bytes in each interaction over different packet loss ratioes and latencies, respectively.
+![image](https://user-images.githubusercontent.com/43732347/156980433-bfbb1ef3-ca3a-4f50-819a-31fb432c1196.png)
+![image](https://user-images.githubusercontent.com/43732347/156980447-f101c131-0518-468c-ab18-c465e905497d.png)
+
+The graphs below are formatted the same way, but they show the total number of packets sent in each interaction.
+![image](https://user-images.githubusercontent.com/43732347/156980545-b7e747a6-5297-4fcb-b1ac-94c5750c15b3.png)
+![image](https://user-images.githubusercontent.com/43732347/156980558-5ebb9bdd-ba2d-47bb-99db-ae3e17bc78e4.png)
+
+Next we look at another one
 
 ### Analysis
 
