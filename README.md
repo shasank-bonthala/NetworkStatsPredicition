@@ -21,6 +21,7 @@ As a cusutomer, this type of analysis is so important when choosing the right in
 ### Key Figures
 
 **TODO: WILL ADD IMAGES FROM EDA HERE AS WELL AS OTHER KEY IMAGES**
+![image](https://user-images.githubusercontent.com/43732347/156963627-e026c43f-95cb-42e4-a48f-97a3877fa3ea.png)
 
 ### Analysis
 
