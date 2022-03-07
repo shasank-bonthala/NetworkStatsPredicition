@@ -14,7 +14,7 @@ As a cusutomer, this type of analysis is so important when choosing the right in
 
 ## Methods & Approach
 
-**TODO**
+The models (linear regression, decision trees, SVM) that we built this quarter to predict latency and patent loss rely heavily on a tool called DANE. DANE is a dataset generation tool that creates artificial and deterministic network data under configurable network conditions. DANE produces separate data files for each latency/loss configuration. Before training our models, we will combine these datasets into a single dataset and label each row with their corresponding latency and loss ratio. We will then use this resulting dataset to train, test, and validate our models. When building our models, we will split our data into the following ratios: 80% to train, 10% to test, and another 10% to validate.
 
 ## Results
 
