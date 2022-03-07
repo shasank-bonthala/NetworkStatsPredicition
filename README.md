@@ -49,7 +49,7 @@ The final two graphs are similar to the previous two, but they show the rate of 
 
 ### Analysis
 
-For Packet Loss Predictions
+Packet Loss Predictions
  
 |Model|Mean Squared Error|Coefficient of Determination|
 | :----: | :----: | :----: |
@@ -59,9 +59,9 @@ For Packet Loss Predictions
 |KNN Regression|1.08 * 10^-7|0.903|
 
  
-Above represents the results of our 4 models on predicting packet loss ratios. Hyper parameters were tuned for all four models to ensure best performance and the mean squared errors were compared between them. As seen in the table, the KNN Regression model performed in terms of lowest mean squared error by a significant margin of error. Performing almost nine times better than the next best model, it is clear that KNN Regression is the best model to use when predicting packet loss. Furthermore, the coefficient of determination for the KNN regression model was 0.903. This means that about 90% of the variance in the dependent variable is explained by the independent variable. This value was also more than two times better than the second highest model score.
+The table above shows the performance metrics of the four models we used to predict packet loss. Hyperparameters were tuned for all four models to ensure best performance. The mean squared errors and coefficients of determination were compared to determine model performance. As seen in the table, the KNN Regression model performed best in terms of lowest mean squared error by a significant margin of error. Furthermore, the coefficient of determination for the KNN regression model was 0.903. This means that about 90% of the variance in the dependent variable is explained by the independent variable. This value was also more than two times better than the second highest model score. When taking both of these metrics into consideration, it is clear that the KNN Regression model is the best choice out of these four.
  
-For Latency Predictions
+Latency Predictions
  
 |Model|Mean Squared Error|Coefficient of Determination|
 | :----: | :----: | :----: |
@@ -71,24 +71,7 @@ For Latency Predictions
 |KNN Regression|35,798|0.449|
 
  
-Interestingly, the results from the latency predictions show that Bayesian Ridge regression was the best performing model in terms of mean squared error. The mean squared error of the Bayesian Ridge model was significantly lower than the others and this was after all models were hyper parameter tuned. The coefficient of determination was also the highest for this model at 0.624.
-Feature Importance Testing
- 
-|Feature|Feature Importance Score (Packet Loss Model)|Feature Importance Score (Latency Model)|
-| :----: | :----: | :----: |
-|max_packet_size|0.508|0.346|
-|range_packet_size|0.006|0.017|
-|avg_packet_size|0.342|0.474|
-|avg_packet_dur|0.688|0.332|
-|total_packet_dir|0.563|0.576|
-|total_packets|0.436|0.366|
-|total_bytes|0.453|0.303|
-|interaction_length|0.122|0.836|
-|packets_time_ratio|0.173|0.233|
-|bytes_time_ratio|0.106|0.176|
-
- 
-Based on SkLearn’s feature importance algorithm, the most important features were different in the packet loss prediction model and the latency model. This isn’t entirely surprising because of the nature of latency and packet loss in affecting network performance but, it is important to note the most important features for each model. For packet loss, the most important features were avg_packet_dur and total_packet_dir. This makes sense logically because we are predicting packet loss so it would make sense for packet features to be the most important. The least important features for the packet loss model are range_packet_size and bytes_time_ratio. For the latency model that we chose, the most important features were by far interaction_length  and then total_packet_dir. The least important feature was also by far range_packet_size (it appears range_packet_size isn’t an effective feature in this situation).
+Somewhat surprisingly, the results from the latency predictions show that Bayesian Ridge regression was the best performing model in terms of mean squared error and coefficient of determination. The mean squared error of the Bayesian Ridge model was lower than the others, indicating a higher level of accuracy on average. The coefficient of determination was also the highest for this model at 0.624. Since the Bayesian Ridge Regression model showed the best performance in both metrics it is the clear choice for the model to be used for predicting latency out of the four tested.
 
 
 ### Future Impact
