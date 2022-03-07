@@ -10,7 +10,7 @@ The motivating problem is that predicting latency and packet loss can be extreme
 
 ### Why should you care?
 
-As a cusutomer, this type of analysis is so important when choosing the right internet provider. Machine learning has become the future of the industry and using it to further improve customer experience is a real plus. The benefits of this research are profound and can truly revolutionize the industry. Being able to predict when packets may be lost or when latency issues will occur from a internet provider's perspective can be beneficial as they monitor their networks. They could then reroute traffic or use other creative ideas to solve these issues and improve the overall experience for customers.
+As a customer, this type of analysis is so important when choosing the right internet provider. Machine learning has become the future of the industry and using it to further improve customer experience is a real plus. The benefits of this research are profound and can truly revolutionize the industry. Being able to predict when packets may be lost or when latency issues will occur from a internet provider's perspective can be beneficial as they monitor their networks. They could then reroute traffic or use other creative ideas to solve these issues and improve the overall experience for customers.
 
 ## Methods & Approach
 
