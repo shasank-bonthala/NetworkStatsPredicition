@@ -55,12 +55,12 @@ Packet Loss Predictions
  
 |Model|Mean Squared Error|Coefficient of Determination|
 | :----: | :----: | :----: |
-|Linear Regression|3.33 * 10^-7|0.099|
-|Ridge Regression|3.36 * 10^-7|0.0977|
-|Decision Trees|2.58 * 10^-6|0.517|
-|Support Vector Regression|2.85 * 10^-7|0.442|
-|KNN Regression|5.91 * 10^-7|-0.596|
-|KNN Classification|5.91 * 10^-7|-0.607|
+|Linear Regression|3.01 * 10^-7|0.181|
+|Ridge Regression|3.05 * 10^-7|0.183|
+|Decision Trees|1.92 * 10^-7|0.940|
+|Support Vector Regression|3.52 * 10^-7|0.675|
+|KNN Regression|2.89 * 10^-7|0.204|
+|KNN Classification|4.58 * 10^-7|-0.219|
 
  
 The table above shows the performance metrics of the six models we used to predict packet loss. Hyperparameters were tuned for all four models to ensure best performance. The mean squared errors and coefficients of determination were compared to determine model performance. As seen in the table, the KNN Classification model performed best in terms of lowest mean squared error by a significant margin of error. Furthermore, the coefficient of determination for the KNN Classification model was -0.607. This means that about 60% of the variance in the dependent variable is explained by the independent variable. When taking both of these metrics into consideration, it is clear that the KNN Classification model is the best choice out of these six.
@@ -69,12 +69,12 @@ Latency Predictions
  
 |Model|Mean Squared Error|Coefficient of Determination|
 | :----: | :----: | :----: |
-|Linear Regression|3.65 * 10^4|0.488|
-|Ridge Regression|3.68 * 10^4|0.486|
-|Decision Trees|6.22 * 10^4|0.483|
-|Support Vector Regression|4.87 * 10^4|0.462|
-|KNN Regression|1.06 * 10^5|-0.479|
-|KNN Classification|1.28 * 10^5|-0.791|
+|Linear Regression|8.07 * 10^4|0.886|
+|Ridge Regression|8.14 * 10^4|0.885|
+|Decision Trees|0.0|1.0|
+|Support Vector Regression|5.66 * 10^4|0.777|
+|KNN Regression|1.83 * 10^5|0.740|
+|KNN Classification|2.18 * 10^4|0.693|
 
  
 Similarly, the results from the latency predictions show that KNN Classification was the best performing model in terms of the coefficient of determination. The mean squared error of the KNN Classification model is significcantly higher than the others, however, the coefficient of determination of -0.791 indicates better performance in comparison to other models. Since the KNN Classification model showed the best performance in both metrics it is the clear choice for the model to be used for predicting latency out of the six tested.
