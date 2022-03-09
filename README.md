@@ -55,25 +55,29 @@ Packet Loss Predictions
  
 |Model|Mean Squared Error|Coefficient of Determination|
 | :----: | :----: | :----: |
-|Linear Regression|8.79 * 10^-7|0.412|
-|Bayesian Ridge Regression|9.63 * 10^-7|0.392|
-|Support Vector Regression|4.16 * 10^-6|-1.537|
-|KNN Regression|1.08 * 10^-7|0.903|
+|Linear Regression|3.33 * 10^-7|0.099|
+|Ridge Regression|3.36 * 10^-7|0.0977|
+|Decision Trees|2.58 * 10^-6|0.517|
+|Support Vector Regression|2.85 * 10^-7|0.442|
+|KNN Regression|5.91 * 10^-7|-0.596|
+|KNN Classification|5.91 * 10^-7|-0.607|
 
  
-The table above shows the performance metrics of the four models we used to predict packet loss. Hyperparameters were tuned for all four models to ensure best performance. The mean squared errors and coefficients of determination were compared to determine model performance. As seen in the table, the KNN Regression model performed best in terms of lowest mean squared error by a significant margin of error. Furthermore, the coefficient of determination for the KNN regression model was 0.903. This means that about 90% of the variance in the dependent variable is explained by the independent variable. This value was also more than two times better than the second highest model score. When taking both of these metrics into consideration, it is clear that the KNN Regression model is the best choice out of these four.
+The table above shows the performance metrics of the six models we used to predict packet loss. Hyperparameters were tuned for all four models to ensure best performance. The mean squared errors and coefficients of determination were compared to determine model performance. As seen in the table, the KNN Classification model performed best in terms of lowest mean squared error by a significant margin of error. Furthermore, the coefficient of determination for the KNN Classification model was -0.607. This means that about 60% of the variance in the dependent variable is explained by the independent variable. When taking both of these metrics into consideration, it is clear that the KNN Classification model is the best choice out of these six.
  
 Latency Predictions
  
 |Model|Mean Squared Error|Coefficient of Determination|
 | :----: | :----: | :----: |
-|Linear Regression|27,851|0.561|
-|Bayesian Ridge Regression|24,312|0.624|
-|Support Vector Regression|55,217|0.195|
-|KNN Regression|35,798|0.449|
+|Linear Regression|3.65 * 10^4|0.488|
+|Ridge Regression|3.68 * 10^4|0.486|
+|Decision Trees|6.22 * 10^4|0.483|
+|Support Vector Regression|4.87 * 10^4|0.462|
+|KNN Regression|1.06 * 10^5|-0.479|
+|KNN Classification|1.28 * 10^5|-0.791|
 
  
-Somewhat surprisingly, the results from the latency predictions show that Bayesian Ridge regression was the best performing model in terms of mean squared error and coefficient of determination. The mean squared error of the Bayesian Ridge model was lower than the others, indicating a higher level of accuracy on average. The coefficient of determination was also the highest for this model at 0.624. Since the Bayesian Ridge Regression model showed the best performance in both metrics it is the clear choice for the model to be used for predicting latency out of the four tested.
+Similarly, the results from the latency predictions show that KNN Classification was the best performing model in terms of the coefficient of determination. The mean squared error of the KNN Classification model is significcantly higher than the others, however, the coefficient of determination of -0.791 indicates better performance in comparison to other models. Since the KNN Classification model showed the best performance in both metrics it is the clear choice for the model to be used for predicting latency out of the six tested.
 
 
 ### Future Impact
